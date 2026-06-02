@@ -21,7 +21,7 @@ const provider = new ethers.JsonRpcProvider("https://forno.celo-sepolia.celo-tes
 const wallet = new ethers.Wallet(process.env.ADMIN_PRIVATE_KEY, provider);
 
 // 🚨 PASTE YOUR NEW CELO SEPOLIA CONTRACT ADDRESS HERE! 🚨
-const CONTRACT_ADDRESS = "0xYourNewCeloSepoliaContractAddressHere"; 
+const CONTRACT_ADDRESS = "0xF30b45003dCDe160B94962bB58FA8C2E9Ab70372"; 
 const CONTRACT_ABI = [
   "function declareWinner(uint256 _roomId, address _winner) external"
 ];
