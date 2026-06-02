@@ -14,7 +14,7 @@ const io = new Server(server, {
 
 // --- WEB3 SETTLEMENT SETUP ---
 // Connect to Celo Alfajores Testnet
-const provider = new ethers.JsonRpcProvider("https://alfajores-forno.celo-testnet.org");
+const provider = new ethers.JsonRpcProvider("https://rpc.ankr.com/celo_testnet");
 const wallet = new ethers.Wallet(process.env.ADMIN_PRIVATE_KEY, provider);
 
 const CONTRACT_ADDRESS = "YOUR_WAGER_CONTRACT_ADDRESS"; // Paste your contract address here
